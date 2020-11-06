@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Snail Race</title>
+    <link rel="icon" type="image/png href="assets/img/snail.png">
+    <link rel="stylesheet" href="jeu.css">
+
+  </head>
+
+  <body>
+
+      <h1>The snail race </h1>
+        <img class="piston1" src="assets/img/pistoncup.jpg">
+        <img class="piston2" src="assets/img/pistoncup.jpg">
+
+
+  		<div id="jeu">
+
+  			<img id="plateau" src="assets/img/plateau1.png"/>
+        <div>
+
+      <input type="image" src="assets/img/restart.png" id="button" class="btn" onclick="resetGame();">
+        </div>
+
+  			<div>
+          <input type="image" src="assets/img/play1.png" id="goo" class="btn" onclick="roll();">
+        </div>
+
+        <img  id="dice-one" src="assets/img/de1.png" class="displayNone dices">
+        <img  id="dice-two" src="assets/img/de2.png" class="displayNone dices">
+
+        <img  id="snail-blue" src="assets/img/pion1.png" class="displayNone snails">
+        <img  id="snail-yellow" src="assets/img/pion2.png" class="displayNone snails">
+        <img  id="snail-red" src="assets/img/pion3.png" class="displayNone snails">
+        <img  id="snail-green" src="assets/img/pion4.png" class="displayNone snails">
+  		</div>
+
+
+
+  </body>
+  <script src="jeu.js"> </script>
+</html>

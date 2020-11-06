@@ -1,0 +1,101 @@
+/* Police */
+@font-face
+{
+	font-family:"lazer84";
+	src: url("assets/font/Lazer84.ttf") format("truetype");
+}
+
+body
+{
+
+    background-image: url("assets/img/herbe2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1
+{
+	margin-top: 3%;
+  text-align: center;
+  font-family: lazer84;
+  letter-spacing: .4rem;
+}
+/* Logo Piston cup */
+.piston1
+{
+	display: flex;
+	margin-top: -10%;
+	margin-left: 25%;
+	height: 8%;
+	width: 8%;
+}
+	.piston2
+	{
+		display: flex;
+		margin-top: -10%;
+		margin-left: 65%;
+		height: 8%;
+		width: 8%;
+
+}
+/* Plateau de jeu */
+#plateau
+{
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+	z-index: auto;
+  margin-top: 2%;
+  width: auto%;
+  height: auto;
+}
+/* Bouton Restart */
+#button
+{
+  display: flex;
+  margin-left: 42%;
+  margin-top: 1%;
+}
+
+/* Bouton Play */
+#goo
+{
+  display: flex;
+  margin-left: 7%;
+  margin-top: -22%;
+}
+/* Enlever bordure externe des boutons */
+input:focus {
+     outline:  none;
+}
+/* Mettre une main en pointeur lorsque la souris passe sur les boutons */
+button:hover
+{
+  cursor:pointer;
+}
+
+.displayNone { display: none; }
+
+/* Dés */
+.dices {
+	position: absolute;
+	top: 30%;
+}
+#dice-one { left: 4%; }
+#dice-two { left: 13%; }
+
+/* PIONS */
+.snails {
+	position: absolute;
+	z-index: auto;
+	left: 23.5%;
+  width: auto;
+	height: auto;
+
+}
+#snail-blue { top: 25%; }
+#snail-yellow { top: 38% }
+#snail-red { top: 52%; }
+#snail-green { top: 65%; }
